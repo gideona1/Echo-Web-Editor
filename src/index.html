@@ -1,12 +1,51 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8" />
-    <title>Hello World!</title>
+    <title>Echo Web Browser</title>
 
+    <meta charset="UTF-8" />
+    <!-- <meta
+      http-equiv="Content-Security-Policy"
+      content=" default-src 'self' 'unsafe-inline' http: https: data:, 
+                script-src 'self' 'unsafe-eval' 'unsafe-inline' http: https: data:;
+      "
+    /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://kit.fontawesome.com/2be1444882.js" crossorigin="anonymous"></script>
   </head>
+
   <body>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
+    <!-- <div class="echo-screen"> -->
+      <div class="echo-interface">
+        <div class="echo-panel-directory echo-panel-header-grid">
+          <div class="echo-panel-header">
+            <div class="echo-panel-header-container">
+              <h1 class="echo-logo">Echo</h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="echo-panel-main">
+          <div class="echo-editor echo-panel-header-grid">
+            <div class="echo-panel-header">
+              <div class="echo-panel-header-container echo-open-tab-container">
+                <div class=""></div>
+              </div>
+            </div>
+            <div class="echo-editor-code"></div>
+          </div>
+
+          <div class="echo-editor-prop echo-panel-header-grid">
+            <div class="echo-panel-header"></div>
+            <div class="echo-panel-content echo-panel-container">
+              <h2>Styling</h2>
+              <h3>Assigned</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="echo-footer"></div> -->
+    </div>
   </body>
 </html>
